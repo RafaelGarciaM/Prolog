@@ -1,2 +1,2 @@
 lista([]).
-lista([X|Xs]):-lista(Xs).
+lista([X|Xs]):-lista(Xs),write(X).
