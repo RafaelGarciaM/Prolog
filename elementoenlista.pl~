@@ -1,0 +1,2 @@
+miembro(X,[X|_]).
+miembro(A,[_|Cb]):- miembro(A,Cb).
